@@ -329,7 +329,7 @@ def weather_info():
     speak(f'The air is {humidity}% humid today')
 
 def weather_at_place():
-    owm=pyowm.OWM('c559d2cb4f0a0a162f3af86f03c8ea31')
+    owm=pyowm.OWM('api id')
     location=owm.weather_at_place(f'{city}')
     weather=location.get_weather()
     temp=weather.get_temperature('celsius')
