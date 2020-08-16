@@ -421,7 +421,7 @@ def openafile():
     dir_path = os.path.dirname(os.path.realpath(__file__)) 
             
     try:
-        for root,dirs,files in os.walk("G:\\VCS\\music"):
+        for root,dirs,files in os.walk("path to music"):
              for file in files:
                 file_name=query[1]
                 if file.startswith(file_name):
