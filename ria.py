@@ -92,7 +92,7 @@ speak("Boss, Now i am online")
 name="Shiva"
 age="23"
 email_id="iitsiva001@gmail.com"
-email_id_password="Scientist001$$$"
+email_id_password=""
 gender="Sir"
 city="Chennai"
 
