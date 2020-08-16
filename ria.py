@@ -707,15 +707,7 @@ if __name__ == '__main__':
 
             
 
-                    if "where is" in text:
-                        query=text.split("where is")
-                        locate()
-
-                    if "none" in text:
-                        get_audio()
-
-                    if "I know that" in text:
-                        speak("Ya, ure right")
+                    
 
                     
                     
