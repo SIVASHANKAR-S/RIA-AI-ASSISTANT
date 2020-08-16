@@ -93,7 +93,7 @@ name="Shiva"
 age=""
 email_id="mail id"
 email_id_password="password"
-gender="Sir"
+
 city="Chennai"
 
 account_sid = 'your id'
