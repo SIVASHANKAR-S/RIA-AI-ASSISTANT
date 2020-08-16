@@ -97,7 +97,7 @@ gender="Sir"
 city="Chennai"
 
 account_sid = 'your id'
-auth_token = 'f7ba4a22f25893f65c1dc13c7a8baa7b'
+auth_token = 'your id'
 
 client = Client(account_sid,auth_token)
 
