@@ -314,7 +314,7 @@ def locate():
     webbrowser.open_new_tab("https://www.google.com/maps/place/"+place)
 
 def weather_info():
-    owm=pyowm.OWM('c559d2cb4f0a0a162f3af86f03c8ea31')
+    owm=pyowm.OWM('id')
     location=owm.weather_at_place(f'{city}')
     weather=location.get_weather()
     temp=weather.get_temperature('celsius')
