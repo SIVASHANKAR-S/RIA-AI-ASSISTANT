@@ -76,7 +76,7 @@ def speak(audio):
     
 #First of all you need to download rainmeter for this
 
-playsound.playsound('B:\ProjectAssistant\personal assistant r\power up.mp3')
+playsound.playsound('<path>power up.mp3')
 speak("Hello Boss")
 speak("Thanks for activating me")
 speak("I am initiating Intelligence protocols")
@@ -96,7 +96,7 @@ email_id_password="Scientist001$$$"
 gender="Sir"
 city="Chennai"
 
-account_sid = 'AC3d64d3f3c095e7821b717c3054de346e'
+account_sid = 'your id'
 auth_token = 'f7ba4a22f25893f65c1dc13c7a8baa7b'
 
 client = Client(account_sid,auth_token)
