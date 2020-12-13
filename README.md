@@ -1,2 +1,2 @@
 # RIA-AI-ASSISTANT
-My personal Artificial assistant developed using python || Project is on under development
+My personal Artificial assistant developed using python || Project is on under development || neural Network
